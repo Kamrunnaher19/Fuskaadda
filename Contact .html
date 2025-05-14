@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ফুসকা আড্ডা:আড্ডা মানে বন্ধুদের সঙ্গে সময় কাটানো, আর ফুসকা মানে মজা </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="src/CSS/index.css">
+  <style>
+    .nav-link:hover {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+     .container {
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      max-width: 900px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+    }
+    form#contactForm {
+      width: 100%;
+    }
+    .form-label {
+      font-weight: 600;
+      color: #ffffff;
+    }
+    .contact-info {
+      background: #d2f5d0;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(246, 246, 246, 0.15);
+      padding: 2rem;
+      width: 100%;
+      color: #000000;
+    }
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.2rem;
+      font-weight: 600;
+    }
+    .info-item svg {
+      fill: #e1e1e1;
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-right: 0.75rem;
+      flex-shrink: 0;
+    }
+   
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg   w-100 z-3 px-4  "><!--position-absolute w-100 z-3 px-4 class er moddhe dite hbe-->
+  <div class="container-fluid">
+    <a class="navbar-brand  fs-2 fw-bold" href="index.html"><img src="src/image/logo.png" alt="logo" width="80px;" height="80px;">ফুসকা আড্ডা</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end t " id="navMenu">
+      <ul class="navbar-nav ">
+        <li class="nav-item "><a class="nav-link active" href="index.html">হোম</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">আমাদের সম্পর্কে</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact .html">যোগাযোগ</a></li>
+        <li class="nav-item"><a class="nav-link" href="FAQ.html">প্রশ্নাবলী</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--contact us-->
+<main class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name<span class="text-danger">*</span></label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Your full name"
+          required
+        />
+        <div class="invalid-feedback">Please enter your name.</div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address<span class="text-danger">*</span></label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="name@example.com"
+          required
+        />
+        <div class="invalid-feedback">Please enter a valid email address.</div>
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject<span class="text-danger">*</span></label>
+        <input
+          type="text"
+          class="form-control"
+          id="subject"
+          placeholder="Subject of your message"
+          required
+        />
+        <div class="invalid-feedback">Please enter a subject.</div>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message<span class="text-danger">*</span></label>
+        <textarea
+          class="form-control"
+          id="message"
+          rows="5"
+          placeholder="Your message here..."
+          required
+        ></textarea>
+        <div class="invalid-feedback">Please enter your message.</div>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      <div id="formAlert" class="alert mt-3 d-none" role="alert"></div>
+    </form>
+
+    <div class="contact-info">
+      <div class="info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin" viewBox="0 0 24 24">
+          <path d="M21 10c0 8-9 13-9 13S3 18 3 10a9 9 0 1118 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+        <span>
+          123 Main Street, Dhaka, Bangladesh
+        </span>
+      </div>
+      <div class="info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone" viewBox="0 0 24 24">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.86 19.86 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.52 12.52 0 001.1 3.06 2 2 0 01-.45 2.11L9.09 10.91a16 16 0 006 6l1.09-1.09a2 2 0 012.11-.45 12.52 12.52 0 003.06 1.1A2 2 0 0122 16.92z"></path>
+        </svg>
+        <span>01234567890</span>
+      </div>
+      <div class="info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail" viewBox="0 0 24 24">
+          <path d="M4 4h16v16H4V4z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <span>fuskaadda@gmail.com</span>
+      </div>
+      <div class="info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#26734d" viewBox="0 0 24 24" width="18" height="18">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 3.86 7 13 7 13s7-9.14 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5z"/>
+        </svg>
+        <span>Mon - Fri: 9:00am - 5:00pm</span>
+      </div>
+    </div>
+  </main>
+
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      "use strict";
+
+      const form = document.getElementById("contactForm");
+      const alertBox = document.getElementById("formAlert");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (!form.checkValidity()) {
+          form.classList.add("was-validated");
+          alertBox.textContent = "Please fill out all required fields correctly.";
+          alertBox.className = "alert alert-danger";
+          alertBox.classList.remove("d-none");
+          return;
+        }
+
+        alertBox.textContent = "Thanks for reaching out! We will get back to you soon.";
+        alertBox.className = "alert alert-success";
+        alertBox.classList.remove("d-none");
+        form.reset();
+        form.classList.remove("was-validated");
+      });
+    })();
+  </script>
+<!--Footer start-->
+<footer> 
+    
+        <!-- Copyright -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr class="mb-4">
+                <div class="text-center">
+                    <p class="mb-0">
+                        &copy; 2025 ফুসকা আড্ডা |কামরুন| সকল অধিকার সংরক্ষিত
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

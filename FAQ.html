@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ফুসকা আড্ডা:আড্ডা মানে বন্ধুদের সঙ্গে সময় কাটানো, আর ফুসকা মানে মজা </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="src/CSS/index.css">
+  <style>
+    .nav-link:hover {
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+     .container {
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      max-width: 1000px;
+    }
+    h1 {
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .accordion-button > svg {
+      width: 1.3rem;
+      height: 1.3rem;
+      margin-right: 0.7rem;
+      fill: #000000;
+    }
+   
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg   w-100 z-3 px-4  "><!--position-absolute w-100 z-3 px-4 class er moddhe dite hbe-->
+  <div class="container-fluid">
+    <a class="navbar-brand  fs-2 fw-bold" href="index.html"><img src="src/image/logo.png" alt="logo" width="80px;" height="80px;">ফুসকা আড্ডা</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end t " id="navMenu">
+      <ul class="navbar-nav ">
+        <li class="nav-item "><a class="nav-link active" href="index.html">হোম</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">আমাদের সম্পর্কে</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact .html">যোগাযোগ</a></li>
+        <li class="nav-item"><a class="nav-link" href="FAQ.html">প্রশ্নাবলী</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--faq section-->
+ <main class="container">
+    <h1>
+      প্রায়ই জিজ্ঞাসিত প্রশ্নাবলী
+    </h1>
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseOne"
+            aria-expanded="true"
+            aria-controls="faqCollapseOne"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Tea Leaf Icon"><path d="M12 2C8 2 5 6 5 10c0 3.064 2.824 7.693 5.274 10.131.152.144.417.144.57 0C16.176 17.693 19 13.064 19 10c0-4-3-8-7-8zM11 16h2v2h-2z"/></svg>
+             ফুচকা তৈরিতে কী ধরনের উপকরণ ব্যবহার করা হয়?
+          </button>
+        </h2>
+        <div
+          id="faqCollapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="faqHeadingOne"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            আমরা ফুচকা তৈরিতে সর্বদা টাটকা ও স্বাস্থ্যসম্মত উপকরণ ব্যবহার করি, যেমন: সুজি, আলু, মসলা, টক জল ইত্যাদি।
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseTwo"
+            aria-expanded="false"
+            aria-controls="faqCollapseTwo"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Consulting Icon"><path d="M7 9V7h2v2H7zm6-2v2h-2V7h2zM7 15h2v2H7v-2zm6 0h2v2h-2v-2zM4 5h16a1 1 0 011 1v2a1 1 0 01-1 1h-1v8h1a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1v-2a1 1 0 011-1h1V9H4a1 1 0 01-1-1V6a1 1 0 011-1zm2 14h12v-2H6v2zm12-4H6v-4h12v4z"/></svg>
+           আপনার দোকান কখন খোলা থাকে? 
+          </button>
+        </h2>
+        <div
+          id="faqCollapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="faqHeadingTwo"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            প্রতিদিন বিকাল ৪টা থেকে রাত ১০টা পর্যন্ত খোলা থাকে।
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseThree"
+            aria-expanded="false"
+            aria-controls="faqCollapseThree"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Shipping Truck Icon"><path d="M3 6v13h1v3h2v-3h8v3h2v-3h1V6H3zm3 8v4h-2v-4h2zM5 8v2H3V8h2zm14 3a2 2 0 01-4 0v-3h4v3zm-6 0v4h-2v-4h2z"/></svg>
+            
+             আপনি কি কাস্টমাইজড ফুচকা অর্ডার করতে পারি?
+
+          </button>
+        </h2>
+        <div
+          id="faqCollapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="faqHeadingThree"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+                          হ্যাঁ, আপনি আপনার পছন্দ অনুযায়ী কাস্টমাইজড ফুচকা অর্ডার করতে পারেন। আমাদের সাথে যোগাযোগ করুন এবং আমরা আপনার চাহিদা অনুযায়ী ব্যবস্থা করব।
+
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseFour"
+            aria-expanded="false"
+            aria-controls="faqCollapseFour"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Payment Icon"><path d="M2 4h20v16H2V4zm18 14V6H4v12h16zm-3-5a1 1 0 11-2 0 1 1 0 012 0zm-3-5v7h-2V8h2zm-4 0v7H7V8h2z"/></svg>
+            ফুচকা ছাড়াও আর কী কী আইটেম আছে?
+          </button>
+        </h2>
+        <div
+          id="faqCollapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="faqHeadingFour"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            আমাদের দোকানে ফুচকা ছাড়াও বিভিন্ন ধরনের স্ন্যাকস, যেমন: চটপটি, বেগুনি, আলুর চপ ইত্যাদি পাওয়া যায়।
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingFive">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseFive"
+            aria-expanded="false"
+            aria-controls="faqCollapseFive"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Support Icon"><path d="M7 12h10v2H7zm0 4h7v2H7zM7 8h12V4H7z"/></svg>
+            ফুচকা অর্ডার দিলে কত সময় লাগে পরিবেশনে?
+          </button>
+        </h2>
+        <div
+          id="faqCollapseFive"
+          class="accordion-collapse collapse"
+          aria-labelledby="faqHeadingFive"
+          data-bs-parent="#faqAccordion"
+        >
+          <div class="accordion-body">
+            সাধারণত, ফুচকা অর্ডার দিলে ৫–৭ মিনিটের মধ্যে পরিবেশন করা হয়। তবে, ব্যস্ত সময়ে এটি কিছুটা বেশি সময় নিতে পারে।
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+<!--Footer start-->
+<footer> 
+    
+        <!-- Copyright -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <hr class="mb-4">
+                <div class="text-center">
+                    <p class="mb-0">
+                        &copy; 2025 ফুসকা আড্ডা |কামরুন| সকল অধিকার সংরক্ষিত
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
